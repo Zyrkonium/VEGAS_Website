@@ -48,6 +48,7 @@ nav {
   flex-wrap: wrap;
   padding: 15px 100px 15px 15px;
   background-color: rgb(34, 31, 31);
+  font-family: "Barlow", "Avenir", Helvetica, Arial, sans-serif;
 }
 
 nav,

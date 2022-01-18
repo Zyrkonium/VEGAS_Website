@@ -3,7 +3,7 @@
     <a class="discord_join" href="https://discord.gg/vegasofficial">
       <img src="@/assets/discord_mark.svg" alt="Discord" />
     </a>
-    <h2>RECENT NEWS</h2>
+    <h2>Recent news</h2>
     <NewsList :nb="3" />
   </div>
 </template>
@@ -31,12 +31,15 @@ export default {
 .discord_join {
   float: right;
   background-color: #5865f2;
-  padding: 10px 20px;
+  margin-right: 35px;
+  padding: 5px 20px;
   border-radius: 15px;
   color: white;
   font-weight: 600;
   font-size: 1.4rem;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .discord_join img {
   height: 40px;
