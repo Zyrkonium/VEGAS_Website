@@ -24,6 +24,23 @@ const routes = [
 		path: "/shop",
 		name: "Shop",
 		component: () => import(/* webpackChunkName: "shop" */ "../views/Shop.vue"),
+		// children: [
+		// 	{
+		// 		path: "accounts",
+		// 		component: () =>
+		// 			import(/* webpackChunkName: "shopAccounts" */ "../shopViews/Accounts.vue"),
+		// 	},
+		// 	{
+		// 		path: "softwares",
+		// 		component: () =>
+		// 			import(/* webpackChunkName: "shopSoftwares" */ "../shopViews/Softwares.vue"),
+		// 	},
+		// ],
+	},
+	{
+		path: "/shop/:categ",
+		name: "ShopCateg",
+		component: () => import(/* webpackChunkName: "shop" */ "../views/Shop.vue"),
 	},
 ];
 

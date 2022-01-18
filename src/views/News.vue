@@ -1,5 +1,6 @@
 <template>
   <div class="news">
+    <span class="context">Home > news</span>
     <h2>News</h2>
     <NewsList :nb="15" />
   </div>

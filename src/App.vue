@@ -63,9 +63,16 @@ body {
 
 /* General */
 h2 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-family: "Barlow", "Avenir", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+}
+.context {
+  color: #979de7;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: "Barlow";
+  font-weight: 600;
 }
 </style>
 

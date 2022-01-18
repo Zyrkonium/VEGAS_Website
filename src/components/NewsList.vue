@@ -74,7 +74,10 @@ ul {
 export default {
   name: "NewsList",
   props: {
-    nb: Number,
+    nb: {
+      type: Number,
+      required: true,
+    },
   },
   data() {
     return {

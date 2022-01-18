@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <span class="context">Home > about</span>
     <h2>Qui sommes nous ?</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, voluptate
@@ -49,10 +50,10 @@ export default {
 
 <style scoped>
 .about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 150px, #121212 250px),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 250px, #121212 350px),
     url("../assets/background_vegas.jpg");
   background-size: 100% auto;
-  padding: 250px 100px 0;
+  padding: 350px 100px 0;
 }
 
 h2 {
