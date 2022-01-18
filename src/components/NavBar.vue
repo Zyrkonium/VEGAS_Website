@@ -121,18 +121,15 @@ a:not(.left a).router-link-exact-active {
   font-weight: 700;
 }
 
+/* MenuToggle styles */
 .menu_toggle {
-  height: 3.5rem;
-  width: 3.5rem;
+  width: 3rem;
   /* background-color: white; */
   display: none;
 }
-
-/* MenuToggle styles */
 label {
   display: flex;
   flex-direction: column;
-  width: 70px;
   cursor: pointer;
 }
 
@@ -140,8 +137,8 @@ label span {
   background: #fff;
   border-radius: 10px;
   height: 5px;
-  margin: 7px 0;
-  transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  margin: 5px 0;
+  transition: 0.4s cubic-bezier(0.59, -0.14, 0.39, 1.17);
 }
 
 span:nth-of-type(1) {
@@ -162,7 +159,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked ~ span:nth-of-type(1) {
   transform-origin: bottom;
-  transform: rotatez(45deg) translate(8px, 0px);
+  transform: rotatez(45deg) translate(7px, 0px);
 }
 
 input[type="checkbox"]:checked ~ span:nth-of-type(2) {
@@ -173,7 +170,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(2) {
 input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   transform-origin: bottom;
   width: 50%;
-  transform: translate(29px, -9px) rotatez(45deg);
+  transform: translate(21px, -8px) rotatez(45deg);
 }
 
 @media screen and (max-width: 950px) {

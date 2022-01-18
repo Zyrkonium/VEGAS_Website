@@ -29,7 +29,12 @@
 <style scoped>
 ul {
   list-style-type: none;
-  padding: 35px 25px;
+  padding-top: 25px;
+}
+@media screen and (min-width: 700px) {
+  ul {
+    padding: 35px 25px;
+  }
 }
 .message {
   /* background-color: rgba(255, 255, 255, 0.1); */

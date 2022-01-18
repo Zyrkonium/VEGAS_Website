@@ -63,10 +63,10 @@ body {
 
 /* General */
 .section_container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 250px, #121212 350px),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 150px, #121212 250px),
     url("./assets/background_vegas.jpg");
   background-size: 100% auto;
-  padding: 350px 20px;
+  padding: 250px 20px;
 }
 @media screen and (min-width: 800px) {
   .section_container {
