@@ -62,6 +62,18 @@ body {
 }
 
 /* General */
+.section_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 250px, #121212 350px),
+    url("./assets/background_vegas.jpg");
+  background-size: 100% auto;
+  padding: 350px 20px;
+}
+@media screen and (min-width: 800px) {
+  .section_container {
+    padding: 350px 100px 0;
+  }
+}
+
 h2 {
   font-size: 2.4rem;
   font-family: "Barlow", "Avenir", Helvetica, Arial, sans-serif;

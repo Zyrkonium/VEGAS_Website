@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home section_container">
     <a class="discord_join" href="https://discord.gg/vegasofficial">
       <img src="@/assets/discord_mark.svg" alt="Discord" />
     </a>
@@ -21,17 +21,8 @@ export default {
 </script>
 
 <style scoped>
-.home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 250px, #121212 350px),
-    url("../assets/background_vegas.jpg");
-  background-size: 100% auto;
-  padding: 350px 100px 0;
-}
-
 .discord_join {
-  float: right;
   background-color: #5865f2;
-  margin-right: 35px;
   padding: 5px 20px;
   border-radius: 15px;
   color: white;
@@ -40,8 +31,18 @@ export default {
   text-decoration: none;
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .discord_join img {
-  height: 40px;
+  width: min(100%, 150px);
+}
+
+@media screen and (min-width: 700px) {
+  .discord_join {
+    float: right;
+    margin-right: 35px;
+    margin-bottom: 0;
+  }
 }
 </style>

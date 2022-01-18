@@ -31,9 +31,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -42,9 +41,52 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
+          price: {
+            nitro: 2,
+          },
+        },
+        {
+          id: Math.floor(Math.random() * Date.now()),
+          title: "Amazon",
+          channel: "#shop",
+          subtitle: "Gift card",
+          price: {
+            eur: 5,
+          },
+        },
+        {
+          id: Math.floor(Math.random() * Date.now()),
+          title: "Amazon",
+          channel: "#shop",
+          subtitle: "FREE Gift card",
+        },
+        {
+          id: Math.floor(Math.random() * Date.now()),
+          title: "Amazon",
+          channel: "#shop",
+          subtitle: "Gift card",
+          price: {
+            invite: 10,
+          },
+        },
+        {
+          id: Math.floor(Math.random() * Date.now()),
+          title: "Amazon",
+          channel: "#shop",
+          subtitle: "Gift card",
+          price: {
+            eur: 5,
+            nitro: 2,
+            invite: 5,
+          },
+        },
+        {
+          id: Math.floor(Math.random() * Date.now()),
+          title: "Amazon",
+          channel: "#shop",
+          subtitle: "Gift card",
           price: {
             eur: 5,
             nitro: 2,
@@ -53,9 +95,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -64,9 +105,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -75,9 +115,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -86,9 +125,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -97,9 +135,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -108,9 +145,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -119,9 +155,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -130,9 +165,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -141,9 +175,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -152,9 +185,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -163,9 +195,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -174,9 +205,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -185,9 +215,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -196,9 +225,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -207,9 +235,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -218,9 +245,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -229,9 +255,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -240,9 +265,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -251,9 +275,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -262,9 +285,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -273,9 +295,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -284,9 +305,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -295,9 +315,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -306,9 +325,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -317,9 +335,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -328,9 +345,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -339,9 +355,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -350,9 +365,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -361,9 +375,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -372,9 +385,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -383,9 +395,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -394,9 +405,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
@@ -405,64 +415,8 @@ export default {
         {
           id: Math.floor(Math.random() * Date.now()),
           title: "Amazon",
+          channel: "#shop",
           subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
-          price: {
-            eur: 5,
-            nitro: 2,
-          },
-        },
-        {
-          id: Math.floor(Math.random() * Date.now()),
-          title: "Amazon",
-          subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
-          price: {
-            eur: 5,
-            nitro: 2,
-          },
-        },
-        {
-          id: Math.floor(Math.random() * Date.now()),
-          title: "Amazon",
-          subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
-          price: {
-            eur: 5,
-            nitro: 2,
-          },
-        },
-        {
-          id: Math.floor(Math.random() * Date.now()),
-          title: "Amazon",
-          subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
-          price: {
-            eur: 5,
-            nitro: 2,
-          },
-        },
-        {
-          id: Math.floor(Math.random() * Date.now()),
-          title: "Amazon",
-          subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
-          price: {
-            eur: 5,
-            nitro: 2,
-          },
-        },
-        {
-          id: Math.floor(Math.random() * Date.now()),
-          title: "Amazon",
-          subtitle: "Gift card",
-          image_url:
-            "https://dundle.com/resources/images/products/product-google-search/amazon-1x1.png",
           price: {
             eur: 5,
             nitro: 2,
