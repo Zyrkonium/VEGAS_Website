@@ -7,10 +7,10 @@
       <div class="msg_right">
         <div class="msg_header">
           <span class="msg_username" :style="`color: ${message.color}`">{{
-            message.user
+            message.username
           }}</span>
           <span class="msg_date">{{
-            new Date(message.date).toLocaleDateString("fr-FR", {
+            new Date(message.created_at).toLocaleDateString("fr-FR", {
               year: "numeric",
               month: "long",
               day: "numeric",
@@ -18,7 +18,7 @@
           }}</span>
         </div>
         <div class="msg_content">
-          {{ message.message }}
+          {{ message.content }}
         </div>
       </div>
     </li>
@@ -76,6 +76,8 @@ ul {
 </style>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "NewsList",
   props: {
@@ -86,36 +88,16 @@ export default {
   },
   data() {
     return {
-      news: [
-        {
-          id: 1,
-          date: Date.now(),
-          user: "K1nshi",
-          avatar_url: "https://i.postimg.cc/5y3SkQ91/avatar-temp.png",
-          color: "#4287f5",
-          message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et amet nostrum dicta quidem ipsum quo asperiores vel, cumque, suscipit exercitationem ipsa qui iste eaque quam porro pariatur laboriosam dolores animi? Possimus, sed! Similique mollitia quasi non a voluptatibus est harum cupiditate, aspernatur expedita, eveniet doloremque et quas ullam? Veniam aspernatur eius dolorum, tenetur id maxime, incidunt architecto dignissimos quibusdam tempora suscipit alias iusto ex nulla provident! Ratione totam aliquam labore ducimus commodi cumque quaerat impedit? Perferendis odit ab, provident totam expedita velit assumenda sapiente at nostrum doloribus quidem possimus excepturi distinctio consectetur facere? Dicta perspiciatis sunt doloremque dolores fuga.",
-        },
-        {
-          id: 2,
-          date: Date.now(),
-          user: "K1nshi",
-          avatar_url: "https://i.postimg.cc/5y3SkQ91/avatar-temp.png",
-          color: "#8e2ad1",
-          message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et amet nostrum dicta quidem ipsum quo asperiores vel, cumque, suscipit exercitationem ipsa qui iste eaque quam porro pariatur laboriosam dolores animi? Possimus, sed! Similique mollitia quasi non a voluptatibus est harum cupiditate, aspernatur expedita, eveniet doloremque et quas ullam? Veniam aspernatur eius dolorum, tenetur id maxime, incidunt architecto dignissimos quibusdam tempora suscipit alias iusto ex nulla provident! Ratione totam aliquam labore ducimus commodi cumque quaerat impedit? Perferendis odit ab, provident totam expedita velit assumenda sapiente at nostrum doloribus quidem possimus excepturi distinctio consectetur facere? Dicta perspiciatis sunt doloremque dolores fuga.",
-        },
-        {
-          id: 3,
-          date: Date.now(),
-          user: "K1nshi",
-          avatar_url: "https://i.postimg.cc/5y3SkQ91/avatar-temp.png",
-          color: "#3ddb62",
-          message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et amet nostrum dicta quidem ipsum quo asperiores vel, cumque, suscipit exercitationem ipsa qui iste eaque quam porro pariatur laboriosam dolores animi? Possimus, sed! Similique mollitia quasi non a voluptatibus est harum cupiditate, aspernatur expedita, eveniet doloremque et quas ullam? Veniam aspernatur eius dolorum, tenetur id maxime, incidunt architecto dignissimos quibusdam tempora suscipit alias iusto ex nulla provident! Ratione totam aliquam labore ducimus commodi cumque quaerat impedit? Perferendis odit ab, provident totam expedita velit assumenda sapiente at nostrum doloribus quidem possimus excepturi distinctio consectetur facere? Dicta perspiciatis sunt doloremque dolores fuga.",
-        },
-      ],
+      news: null,
     };
+  },
+  mounted() {
+    axios
+      .get(`http://localhost:3001/api/news/get?n=${this.nb.toString()}`)
+      .then((response) => {
+        console.log("response: ", response.data);
+        this.news = response.data;
+      });
   },
 };
 </script>

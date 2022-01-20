@@ -1,5 +1,5 @@
 <template>
-  <div class="shop_item" :style="cssVars">
+  <div class="shop_item">
     <div class="heading">
       <div class="card_title">
         {{ item_data.title }}
@@ -42,6 +42,7 @@ export default {
   //       };
   //     },
   //   },
+  // Add :style="cssVars"
 };
 </script>
 

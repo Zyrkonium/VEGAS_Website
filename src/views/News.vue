@@ -2,7 +2,7 @@
   <div class="news section_container">
     <span class="context">Home > news</span>
     <h2>News</h2>
-    <NewsList :nb="15" />
+    <NewsList :nb="50" />
   </div>
 </template>
 
