@@ -5,17 +5,21 @@
     </a>
     <h2>Recent news</h2>
     <NewsList :nb="3" />
+    <h2 class="shop_title">Recently added</h2>
+    <ShopGrid :nb="3" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import NewsList from "@/components/NewsList.vue";
+import ShopGrid from "@/components/ShopGrid.vue";
 
 export default {
   name: "Home",
   components: {
     NewsList,
+    ShopGrid,
   },
 };
 </script>
@@ -36,6 +40,11 @@ export default {
 }
 .discord_join img {
   width: min(100%, 150px);
+}
+
+h2.shop_title {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 700px) {
